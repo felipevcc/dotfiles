@@ -9,7 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/felipe/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Edtitor de texto
 export EDITOR="nvim"
@@ -157,25 +157,7 @@ Shortcuts:
 Nvim Files (shortcuts):
   - nvgit
   - nvlinux
-  - nvzrc
-
-Ascii:
-  - HELLO
-  - TANK" 
-
-#ASCII
-HELLO="
-║║╔║║╔╗ ║
-╠╣╠║║║║ ║
-║║╚╚╚╚╝ O"
-
-TANK="
-███۞███████ ]▄▄▄▄▄▄▄▄▄▄▄▄▃
-▂▄▅█████████▅▄▃▂
-I███████████████████].
-◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤..."
-
-
+  - nvzrc"
 
 # Dracula Theme (for zsh-syntax-highlighting)
 #
