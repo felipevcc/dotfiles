@@ -1,0 +1,115 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+#aqui yo:
+
+# pkill sxhkd
+# sxhkd &
+# $HOME/.config/polybar/launch.sh
+#
+# bspc monitor primary -d 1 2 3 4 5
+# bspc monitor LVDS-1 -d 6
+#
+# bspc config border_width         2
+# bspc config window_gap          12
+#
+# bspc config split_ratio          0.52
+# bspc config borderless_monocle   true
+# bspc config gapless_monocle      true
+#
+# bspc rule -a Gimp desktop='^8' state=floating follow=on
+# bspc rule -a Chromium desktop='^2'
+# bspc rule -a mplayer2 state=floating
+# bspc rule -a Kupfer.py focus=on
+# bspc rule -a Screenkey manage=off
+#
+# picom &
+#
+# $HOME/Documentos/Monitores.sh &
+#
+# feh --bg-fill /home/felipe/Imágenes/fondos/colors.png &
+
+
+# ACAAAA
+
+#! /bin/sh
+
+#autostart apps
+#pgrep -x sxhkd > /dev/null || sxhkd &
+#xfce4-power-manager &
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+# xmodmap .Xmodmap &
+#nm-applet &
+#ibus-daemon -drxR &
+# gtk themes and term colorsheme
+#cp -r ~/Public/theme\ and\ icons/bsp/.gtkrc-2.0 ~/ &
+#cp -r ~/Public/theme\ and\ icons/bsp/settings.ini ~/.config/gtk-3.0/ &
+#----
+# xrdb merge ~/.Xresources &
+# $HOME/Documentos/Monitores.sh &
+# feh --bg-fill /home/felipe/Imágenes/fondos/stretched-1920-1080-1155716.png &
+# picom &
+
+# polybar 
+#cp -r /usr/share/doc/polybar ~/.config/ &
+# ~/.config/polybar/launch.sh 
+#----
+#sxhkd
+#wallpaper and nvim
+#feh --bg-fill ~/Pictures/wall/1376530.png &
+#del .config/nvim && cp -r ~/Public/nvim_confs/base/nvim ~/.config/ &
+
+# workspaces 
+bspc monitor primary -d 1 2 3 4 5 6
+bspc monitor LVDS-1 -d 7
+
+bspc config focus_follows_pointer true
+
+#bspc config top_padding 20
+
+# borders
+bspc config focused_border_color "#44475a"
+bspc config normal_border_color "#1f222b"
+bspc config border_width 2
+bspc config borderless_monocle true
+
+bspc config active_border_color "#bd93f9"
+bspc config presel_feedback_color "#6272a4"
+
+#gaps 
+bspc config gapless_monocle false
+bspc config window_gap 19
+#bspc config split_ratio 0.60
+
+#moving floating windows and resize them with mouse, hold alt key
+bspc config pointer_modifier mod4
+bspc config pointer_action1 move
+bspc config pointer_action2 resize_side
+bspc config pointer_action3 resize_corner
+
+#rules
+bspc rule -a feh state=floating
+#bspc rule -a Alacritty state=floating
+#bspc rule -a Xfce4-terminal state=floating
+bspc rule -a Xfce4-settings-manager state=floating
+bspc rule -a openssh-askpass state=floating
+bspc rule -a kdeconnect-app state=floating
+bspc rule -a Pavucontrol state=floating
+bspc rule -a vlc state=floating
+bspc rule -a Pamac-manager state=floating
+bspc rule -a Brave-browser desktop='^2' follow=on
+bspc rule -a discord desktop='^6' follow=on
+bspc rule -a spotify desktop='^5' follow=on
+bspc rule -a TelegramDesktop desktop='^4' follow=on
+
+
+xrdb merge ~/.Xresources &
+$HOME/Documentos/Monitores.sh &
+feh --bg-fill /home/felipe/Imágenes/fondos/stretched-1920-1080-1155716.png &
+~/.config/polybar/launch.sh & 
+picom
+
+
+
+
