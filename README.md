@@ -1,13 +1,13 @@
 # My dotfiles
 
 ## Info 
-* OS: Manjaro Linux 
-* WM: Bspwm 
-* Bar: Polybar 
-* Shell: Zsh 
-* Compositor: Picom
-* App Launcher: Rofi 
-* Prompt: oh-my-zsh (powerlevel10K)
+* **OS:** Manjaro Linux 
+* **WM:** Bspwm 
+* **Bar:** Polybar 
+* **Shell:** Zsh 
+* **Compositor:** Picom
+* **App Launcher:** Rofi 
+* **Prompt:** oh-my-zsh (powerlevel10K)
 
 ## Previews 
 <img src="https://i.imgur.com/qjsllgj.png"></img> 
