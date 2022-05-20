@@ -43,6 +43,8 @@ bspc rule -a TelegramDesktop desktop='^4' follow=on
 
 xrdb merge ~/.Xresources &
 $HOME/Documentos/Monitores.sh &
+
+# Set wallpaper:
 #feh --bg-fill $HOME/Imágenes/fondos/stretched-1920-1080-1155716.png &
 
 # Python script to always initialize with a different wallpaper:
