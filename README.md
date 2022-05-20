@@ -16,4 +16,4 @@
 ## NOTE 
 The polybar configuration is based on [siduck's dotfiles](https://github.com/siduck/dotfiles). Currently I am also making use of the [nvchad](https://github.com/NvChad/NvChad) configuration. 
 
-And I also made use of [Prayags Spotify modules setup](https://github.com/PrayagS/polybar-spotify).
+And I also used [Prayags Spotify modules setup](https://github.com/PrayagS/polybar-spotify).
