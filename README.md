@@ -7,11 +7,12 @@
 * **Shell:** Zsh 
 * **Compositor:** Picom
 * **App Launcher:** Rofi 
+* **Notifications:** Dunst
 * **Prompt:** oh-my-zsh (powerlevel10K)
 
 ## Previews 
-<img src="https://i.imgur.com/qjsllgj.png"></img>
-<img src="https://i.imgur.com/tCMFNjm.png"></img>
+<!-- <img src="https://i.imgur.com/qjsllgj.png"></img> -->
+<img src="https://i.imgur.com/mzN438n.png"></img>
 <img src="https://i.imgur.com/RqMQsGk.png"></img>
 
 ## Credits
