@@ -1,14 +1,14 @@
 # My dotfiles
 
 ## Info 
-* **OS:** Manjaro Linux 
-* **WM:** Bspwm 
-* **Bar:** Polybar 
-* **Shell:** Zsh 
-* **Compositor:** Picom
-* **App Launcher:** Rofi 
-* **Notifications:** Dunst
-* **Prompt:** oh-my-zsh (powerlevel10K)
+* **OS:** [Manjaro Linux](https://manjaro.org/) 
+* **WM:** [Bspwm](https://github.com/baskerville/bspwm)
+* **Bar:** [Polybar](https://github.com/polybar/polybar) 
+* **Shell:** [Zsh](https://wiki.archlinux.org/title/zsh) 
+* **Compositor:** [Picom](https://github.com/yshui/picom)
+* **App Launcher:** [Rofi](https://github.com/davatorium/rofi) - [Customization](https://github.com/adi1090x/rofi) 
+* **Notifications:** [Dunst](https://github.com/dunst-project/dunst)
+* **Prompt:** [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) - [powerlevel10K](https://github.com/romkatv/powerlevel10k)
 
 ## Previews 
 <!-- <img src="https://i.imgur.com/qjsllgj.png"></img> -->
