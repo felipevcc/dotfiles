@@ -13,7 +13,7 @@
 ## Previews 
 <!-- <img src="https://i.imgur.com/qjsllgj.png"></img> -->
 <img src="https://i.imgur.com/c5NGLTq.png"></img>
-<img src="https://i.imgur.com/RqMQsGk.png"></img>
+<img src="https://i.imgur.com/ymKDLDK.png"></img>
 
 ## Note
 In my bspwm I used a python script so every time I start bspwm the wallpaper changes. Inside the script I call a folder where I keep them all.
