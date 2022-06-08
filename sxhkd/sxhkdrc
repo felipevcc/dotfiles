@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	i3-sensible-terminal
+	alacritty
 
 # program launcher
 #super + @space 
