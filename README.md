@@ -1,4 +1,20 @@
-# My dotfiles
+<h1 align=center>My Dots <img src="https://cdn-icons.flaticon.com/png/512/2134/premium/2134212.png?token=exp=1654844066~hmac=e2575720e1ab3d31e9b0c7f0b449efc4" width=60 align=center></img></h1> 
+
+<div align=center>
+  <a href="https://github.com/janleigh/dotfiles/">
+    <img src="https://img.shields.io/github/repo-size/felipevcc/dotfiles?color=6E93CC&labelColor=1C2325&style=for-the-badge">
+  </a> 
+</div> <br>
+
+<div align=center>
+  
+  [Previews](#previews) · [Info](#info) · [Note](#note) · [Credits](#credits)
+</div> <br>
+
+## Previews 
+<img src="https://i.imgur.com/c5NGLTq.png"></img>
+<img src="https://i.imgur.com/IVErtro.png"></img>
+<img src="https://i.imgur.com/YjW7Zfn.png"></img>
 
 ## Info 
 * **OS:** [Manjaro Linux](https://manjaro.org/) 
@@ -13,13 +29,10 @@
 * **Document Viewer:** [Zathura](https://github.com/pwmt/zathura)
 * **Audio Visualizer:** [Cava](https://github.com/karlstav/cava)
 
-## Previews 
-<img src="https://i.imgur.com/c5NGLTq.png"></img>
-<img src="https://i.imgur.com/IVErtro.png"></img>
-<img src="https://i.imgur.com/YjW7Zfn.png"></img>
-
 ## Note
 In my bspwm I used a python script so every time I start bspwm the wallpaper changes. Inside the script I call a folder where I keep all the wallpapers. If you want to use the script you should set your wallpapers folder path [here](https://github.com/felipevcc/dotfiles/blob/main/bspwm/scripts/wallpaper.py), if you want to disable the script you should comment line 51 of bspwmrc and uncomment line 48 to set a wallpaper path.
+
+<br>
 
 ## Credits
 * The polybar configuration is based on [siduck's dotfiles](https://github.com/siduck/dotfiles) and currently I am also making use of the [Nvchad](https://github.com/NvChad/NvChad) configuration. 
