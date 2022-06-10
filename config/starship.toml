@@ -1,0 +1,233 @@
+format = "$all"
+add_newline = true 
+command_timeout = 2000
+continuation_prompt = "[](#e78284)[](#ef9f76)[ ](#e5c890)"
+
+[character]
+error_symbol = "[ ](bold red)"
+success_symbol = "[ ](#a6d189)"
+#vicmd_symbol = "[󰮭](bold yellow)"
+format = "$symbol[](#e78284)[](#ef9f76)[ ](#e5c890)"
+
+# [hostname]
+# ssh_only = true
+# format = "[$hostname](bold blue) "
+# disabled = false
+
+# [line_break]
+# disabled = true
+
+#[lua]
+#symbol = "[󰢱 ](blue) "
+#
+# [git_branch]
+# disabled = false
+# format = "[$symbol$branch]( $style ) "
+# symbol = "󱃷  "
+# style = "bold yellow"
+
+[git_branch]
+symbol = " "
+format = '[$symbol$branch ]($style)'
+
+[git_status]
+style = "#ff92df"
+# conflicted = "󰈻 "
+#up_to_date = "󰸞 "
+# untracked = "󰷌 "
+# modified = "󰏪 "
+#renamed = "󱇧 "
+#deleted = "󰆴 "
+#ahead = "󰜷 "
+#diverged = "󰹺 "
+#behind = "󰜮 "
+format = '([$all_status$ahead_behind ]($style))'
+
+
+[aws]
+symbol = "  "
+format = '[$symbol($profile)(\($region\))(\$duration\)]($style)'
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+format = '[$symbol($version(-$name))]($style)'
+
+[cmake]
+format = '[$symbol($version)]($style)'
+
+[cobol]
+format = '[$symbol($version)]($style)'
+
+[conda]
+symbol = " "
+format = '[$symbol$environment]($style)'
+
+[crystal]
+format = '[$symbol($version)]($style)'
+
+[dart]
+symbol = " "
+format = '[$symbol($version)]($style)'
+
+[deno]
+format = '\[[$symbol($version)]($style)\]'
+
+[directory]
+read_only = " "
+style = "#95e1d3 bold"
+fish_style_pwd_dir_length = 2
+# truncation_length = 5
+# format = "[$path]($style)[$lock_symbol]($lock_style) "
+
+[docker_context]
+symbol = " "
+format = '[$symbol$context]($style)'
+
+[dotnet]
+format = '[$symbol($version)]($style)'
+
+[elixir]
+symbol = " "
+format = '[$symbol($version \(OTP $otp_version\))]($style)'
+
+[elm]
+symbol = " "
+format = '[$symbol($version)]($style)'
+
+[erlang]
+format = '[$symbol($version)]($style)'
+
+[gcloud]
+format = '[$symbol$account(@$domain)(\($region\))]($style)'
+
+[golang]
+symbol = " "
+style = "#8be9fd"
+format = '[$symbol($version)]($style)'
+
+[haskell]
+symbol = " "
+format = '[$symbol($version)]($style)'
+
+[helm]
+format = '[$symbol($version)]($style)'
+
+[hg_branch]
+symbol = " "
+format = '[$symbol$branch]($style)'
+
+[java]
+symbol = " "
+format = '[$symbol($version)]($style)'
+
+[julia]
+symbol = " "
+format = '[$symbol($version)]($style)'
+
+[kotlin]
+format = '[$symbol($version)]($style)'
+
+[kubernetes]
+format = '[$symbol$context( \($namespace\))]($style)'
+
+[lua]
+disabled = true
+# symbol = " "
+# format = '[$symbol($version)]($style)'
+
+[memory_usage]
+symbol = " "
+format = '$symbol[$ram( | $swap)]($style)'
+
+[nim]
+symbol = " "
+format = '[$symbol($version)]($style)'
+
+[nix_shell]
+symbol = " "
+format = '[$symbol$state( \($name\))]($style)'
+
+[nodejs]
+symbol = " "
+format = '[$symbol($version)]($style)'
+
+[ocaml]
+format = '[$symbol($version)(\($switch_indicator$switch_name\))]($style)'
+
+[openstack]
+format = '[$symbol$cloud(\($project\))]($style)'
+
+[package]
+symbol = " "
+format = '[$symbol($version)]($style)'
+
+[perl]
+format = '[$symbol($version)]($style)'
+
+[php]
+symbol = " "
+format = '[$symbol($version)]($style)'
+
+[pulumi]
+format = '[$symbol$stack]($style)'
+
+[purescript]
+format = '[$symbol($version)]($style)'
+
+[python]
+symbol = " "
+format = '[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)'
+
+[red]
+format = '[$symbol($version)]($style)'
+
+[ruby]
+format = '[$symbol($version)]($style)'
+
+[rust]
+symbol = " "
+format = '[$symbol($version)]($style)'
+
+[scala]
+format = '[$symbol($version)]($style)'
+
+[spack]
+symbol = "🅢 "
+format = '[$symbol$environment]($style)'
+
+# [sudo]
+# format = '[as $symbol]'
+
+[swift]
+format = '[$symbol($version)]($style)'
+
+[terraform]
+format = '[$symbol$workspace]($style)'
+
+# [time]
+# format = '[$time]($style)'
+#
+# [username]
+# format = '[$user]($style)'
+
+[vagrant]
+format = '[$symbol($version)]($style)'
+
+[vlang]
+format = '[$symbol($version)]($style)'
+
+[zig]
+format = '[$symbol($version)]($style)'
+
+
+
+
+
+# [character] # The name of the module we are configuring is "character"
+# #success_symbol = " ➜(bold-green)" 
+#success_symbol = "[ ](#a6d189)[](#e78284)[](#ef9f76)[](#e5c890)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+
+

@@ -1,0 +1,20 @@
+[general]
+
+bar_width = 2
+bar_spacing = 1
+
+[output]
+
+method = ncurses
+
+[color]
+
+gradient = 1
+gradient_color_1 = '#BEE4ED'
+gradient_color_2 = '#A4B9EF'
+gradient_color_3 = '#C6AAE8'
+gradient_color_4 = '#E5B4E2'
+gradient_color_5 = '#F2CECF'
+gradient_color_6 = '#EBDDAA'
+gradient_color_7 = '#F9C096'
+gradient_color_8 = '#E38C8F'
