@@ -2,7 +2,7 @@
 
 <div align=center>
   <a href="https://github.com/janleigh/dotfiles/">
-    <img src="https://img.shields.io/github/repo-size/felipevcc/dotfiles?color=6E93CC&labelColor=1C2325&style=for-the-badge">
+    <img src="https://img.shields.io/github/repo-size/felipevcc/dotfiles?color=6E93CC&labelColor=1f212b&style=for-the-badge">
   </a> 
 </div> <br>
 
