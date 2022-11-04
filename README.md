@@ -1,4 +1,4 @@
-<h1 align=center>My Dots <img src="https://cdn-icons.flaticon.com/png/512/2134/premium/2134212.png?token=exp=1654844066~hmac=e2575720e1ab3d31e9b0c7f0b449efc4" width=60 align=center></img></h1> 
+<h1 align=center>My Dots <img src="https://cdn-icons-png.flaticon.com/512/2134/2134212.png" width=60 align=center></img></h1> 
 
 <div align=center>
   <a href="https://github.com/janleigh/dotfiles/">
