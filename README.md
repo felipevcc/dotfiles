@@ -30,7 +30,7 @@
 * **Audio Visualizer:** [Cava](https://github.com/karlstav/cava)
 
 ## Note
-In my bspwm I used a python script so every time I start bspwm the wallpaper changes. Inside the script I call a folder where I keep all the wallpapers. If you want to use the script you should set your wallpapers folder path [here](https://github.com/felipevcc/dotfiles/blob/main/bspwm/scripts/wallpaper.py), if you want to disable the script you should comment line 51 of bspwmrc and uncomment line 48 to set a wallpaper path.
+In my bspwm I used a python script so every time I start bspwm the wallpaper changes. Inside the script I call a folder where I keep all the wallpapers. If you want to use the script you should set your wallpapers folder path [here](https://github.com/felipevcc/dotfiles/blob/main/config/bspwm/scripts/wallpaper.py), if you want to disable the script you should comment line 51 of bspwmrc and uncomment line 48 to set a wallpaper path.
 
 <br>
 
